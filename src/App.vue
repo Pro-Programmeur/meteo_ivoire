@@ -1,6 +1,6 @@
 <script>
   export default {
-    name: 'app',
+    name: 'mon_app',
     data(){
       return {
         api_key: '70d2c3780071cef866b1ad8193032b69',
@@ -50,7 +50,7 @@
     v-model="query" 
     @keypress="fetchWeather"
     />
-    {{ query  }}
+    <!-- {{ query  }} -->
   </div>
       <div class="weather-wrap" v-if="weather.main != null">
 
