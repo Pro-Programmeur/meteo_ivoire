@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "serve": "vue-cli-service serve",
-    "build": "vite build",
+    "build": "vue-cli-service build",
     "postinstall": "npm run build",
     "start": "node server.js",
     "preview": "vite preview --port 4173",
